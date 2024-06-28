@@ -79,7 +79,7 @@ public class Calculator {
         StringBuilder sb = new StringBuilder();
         String[] romanNumerals = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"};
         
-        // Находим наибольшее римское число, которое помещается в результат
+    
         for (int i = romanNumerals.length - 1; i >= 1; i--) {
             while (number >= i) {
                 sb.append(romanNumerals[i]);
